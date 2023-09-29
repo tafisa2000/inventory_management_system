@@ -1,0 +1,1 @@
+<img src="{{asset('logo/illustrator_light.png')}}" alt="logo" width="75px">
