@@ -35,6 +35,7 @@
                                         <th>Email</th>
                                         <th>Address</th>
                                         <th>Action</th>
+                                    </tr>
 
                                 </thead>
 

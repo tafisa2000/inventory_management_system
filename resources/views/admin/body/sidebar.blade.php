@@ -35,6 +35,9 @@
                      </a>
                      <ul class="sub-menu" aria-expanded="false">
                          <li><a href="{{ route('customer.all') }}">All Customers</a></li>
+                         <li><a href="{{ route('credit.customer') }}">Credit Customers</a></li>
+                         <li><a href="{{ route('paid.customer') }}">Paid Customers</a></li>
+                         <li><a href="{{ route('customer.wise.report') }}">Customer Wise Report</a></li>
                      </ul>
                  </li>
 
@@ -77,6 +80,7 @@
                      <ul class="sub-menu" aria-expanded="false">
                          <li><a href="{{ route('purchase.all') }}">All Purchases</a></li>
                          <li><a href="{{ route('purchase.pending') }}">Aproval Purchases</a></li>
+                         <li><a href="{{ route('daily.purchase.report') }}">Daily Purchase Report</a></li>
                      </ul>
                  </li>
 
@@ -89,6 +93,8 @@
                      <ul class="sub-menu" aria-expanded="false">
                          <li><a href="{{ route('invoice.all') }}">All Invoice</a></li>
                          <li><a href="{{ route('invoice.pending.list') }}">Aproval Invoice</a></li>
+                         <li><a href="{{ route('print.invoice.list') }}">Print Invoice List</a></li>
+                         <li><a href="{{ route('daily.invoice.report') }}">Dail Invoice Report</a></li>
                      </ul>
                  </li>
 
@@ -97,21 +103,19 @@
 
 
 
-                 <li class="menu-title">Pages</li>
+                 <li class="menu-title">Stock</li>
 
                  <li>
                      <a href="javascript: void(0);" class="has-arrow waves-effect">
                          <i class="ri-account-circle-line"></i>
-                         <span>Authentication</span>
+                         <span>Manage Stock</span>
                      </a>
                      <ul class="sub-menu" aria-expanded="false">
-                         <li><a href="auth-login.html">Login</a></li>
-                         <li><a href="auth-register.html">Register</a></li>
-                         <li><a href="auth-recoverpw.html">Recover Password</a></li>
-                         <li><a href="auth-lock-screen.html">Lock Screen</a></li>
+                         <li><a href="{{ route('stock.report') }}">Stock Report</a></li>
+                         <li><a href="{{ route('stock.supplier.wise') }}">Supplier / Product Wise </a></li>
+
                      </ul>
                  </li>
-
                  <li>
                      <a href="javascript: void(0);" class="has-arrow waves-effect">
                          <i class="ri-profile-line"></i>

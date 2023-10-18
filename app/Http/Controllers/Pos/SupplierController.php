@@ -13,7 +13,7 @@ class SupplierController extends Controller
     public function SupplierAll(){
         $suppliers = Supplier::latest()->get();
         return view('backend.supplier.supplier_all',compact('suppliers'));
-    }
+    }//end function
 
     public function SupplierAdd(){
     return view('backend.supplier.supplier_add');
@@ -83,5 +83,5 @@ $supplier_id = $request->id;
         
         return redirect()->back()->with($notification);
 
-    }
+    }//end function
 }
